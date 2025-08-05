@@ -22,3 +22,6 @@ console.log(typeof 33);
 let numtostring = String(someNo)
 console.log(numtostring)
 console.log(typeof numtostring) 
+
+
+
