@@ -52,3 +52,44 @@ console.log(typeof myfun);
 
 
 
+// *********************Memory*************
+
+//Stack(Primitive), Heap(Non-Primitive)
+
+//Stack
+
+let aname = "Arpitha"
+let bname = aname
+bname = "Prakruthi"
+
+console.log(aname);
+console.log(bname);
+
+/*
+In stack memory it creates copy of variable, so if 
+change value it won't effect original value
+*/
+
+/*
+Heap
+Here it gives reference of original value so it
+changes original value when it compute 
+*/
+
+let userOne = {
+    email: "userOne@gmail.com",
+    id : "123"
+}
+
+let userTwo = userOne
+userTwo.email = "userTwo@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
+
+
+
+
