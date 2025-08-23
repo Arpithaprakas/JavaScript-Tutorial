@@ -23,6 +23,7 @@ let n1 = 10
 let n2 = 20
 let n3 = 30
 let n4 = 40
+//let new_alpha = ["a","b","c"]
 let nums = Array.of(n1,n2,n3,n4)
 console.log(Array.isArray(nums))// it gives true
 console.log(nums);
