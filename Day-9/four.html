@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoM - JavaScript</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <ul class="languages">
+        <li>JavaScript</li>
+        <li>C++</li>
+        <li>Python</li>
+        <li>C#</li>
+    </ul>
+</body>
+<script>
+    function addLanguages(lang){
+        const new_li = document.createElement('li');
+        new_li.innerHTML = `${lang}`
+        document.querySelector('.languages').appendChild(new_li)
+    }
+    addLanguages('Java')
+
+    // Optimization way
+
+    function addLangOpt(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.languages').appendChild(li)
+    }
+
+    addLangOpt("Ruby");
+
+    // Edit elements
+</script>
+</html>
