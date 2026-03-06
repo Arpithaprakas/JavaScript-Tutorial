@@ -65,3 +65,5 @@ const Total = myNums.reduce(function (acc, curval){
     return acc+curval
 },1)  // we can give any number as accumalator
 console.log(Total);
+
+
